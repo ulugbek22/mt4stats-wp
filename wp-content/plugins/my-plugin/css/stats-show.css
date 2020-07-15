@@ -1,0 +1,59 @@
+
+
+
+.trade-list {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.trade {
+	padding: 10px;
+	margin: 5px;
+	border: 1px solid grey;
+}
+
+.profit-trade {
+	border: 2px solid #89fe00;
+	background-color: #89fe00;
+}
+.profit .figure {
+	border: none;
+}
+
+.loss-trade {
+	border: 2px solid #ff7676;
+	background-color: #ff7676;
+}
+
+.be-trade {
+	border: 2px solid #d1d1d1;
+	background-color: #d1d1d1;
+}
+
+.time {
+	float: right;
+}
+
+/* ==== Front Page ==== */
+.panel > form {
+	max-width: 500px;
+	margin: auto;
+}
+
+.panel > form > textarea {
+	width: 100%;
+}
+
+.panel > form > button {
+	padding: 10px 50px;
+	cursor: pointer;
+}
+
+.panel > h1 {
+	text-align: center;
+}
+
+.logo > a {
+	text-decoration: none;
+}

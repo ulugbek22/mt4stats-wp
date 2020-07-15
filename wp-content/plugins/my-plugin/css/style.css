@@ -1,0 +1,10 @@
+
+.new-stats-form input, .new-stats-form textarea {
+	width: 100%;
+	font-size: 1em;
+	padding: 5px;
+}
+
+.new-stats-form input, .new-stats-form textarea, .new-stats-form button {
+	margin-bottom: 15px;
+}
